@@ -1,0 +1,35 @@
+2025-08-14 18:34:17,456 - INFO - Testing API connection...
+2025-08-14 18:34:18,474 - WARNING - API connection test failed, proceeding anyway...
+2025-08-14 18:34:18,474 - INFO - Creating parts...
+2025-08-14 18:34:18,478 - INFO - Sending request to: https://api.jkcabinetryct.com/parts/create-parts/689cba9eca19d8fef712c080
+2025-08-14 18:34:18,478 - INFO - Form data: {
+  "title": "joy banlga",
+  "subTitle": "joy bangla",
+  "description": "joybangla",
+  "price": "20"
+}
+2025-08-14 18:34:18,478 - INFO - File: iamge.webp (image/webp)
+2025-08-14 18:34:19,378 - INFO - Response Status Code: 200
+2025-08-14 18:34:19,379 - INFO - Response Headers: {'Date': 'Thu, 14 Aug 2025 12:34:19 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"1dc-n0wtf0FYoM2hNqbXmwaniZjAizY"', 'X-Powered-By': 'Express', 'Cf-Cache-Status': 'DYNAMIC', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BkdNqkb9i2%2BN1x4h6Icd6lfh8AuBn300qqILd6m9MKVGeIKJ1xPhLDScHnIQjwElGforjXp35N1s93AkhHQJtPEZFk%2BnxWO6tDCyjwxh9YKgJ4OMEQ%3D%3D"}]}', 'Content-Encoding': 'gzip', 'Server': 'cloudflare', 'CF-RAY': '96f07c51e9888a13-SIN', 'alt-svc': 'h3=":443"; ma=86400'}
+2025-08-14 18:34:19,379 - INFO - Request successful!
+2025-08-14 18:34:19,379 - INFO - Response: {
+  "success": true,
+  "message": "Part is created successfully",
+  "data": {
+    "images": [
+      "/uploads/parts/iamge-1755174859217.webp"
+    ],
+    "title": "joy banlga",
+    "subTitle": "joy bangla",
+    "description": "joybangla",
+    "price": 20,
+    "stockItemCategoryId": "689cba9eca19d8fef712c080",
+    "stockItemId": "689cba14ca19d8fef712c022",
+    "branchName": "sayed branch",
+    "branchId": "689989fbca6a42f554921614",
+    "_id": "689dd7cbca19d8fef712c97f",
+    "createdAt": "2025-08-14T12:34:19.274Z",
+    "updatedAt": "2025-08-14T12:34:19.274Z",
+    "__v": 0
+  }
+}
